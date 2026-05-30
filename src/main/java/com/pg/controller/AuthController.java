@@ -12,6 +12,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
+@CrossOrigin(origins = "https://vocal-boba-49ec98.netlify.app")
 public class AuthController {
     private final AuthenticationManager authManager;
     private final JwtUtil jwtUtil;
